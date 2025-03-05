@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest News</title>
+  <style>
+    :root {
+      --primary: #1a1a2e;
+      --secondary: #16213e;
+      --accent: #0f3460;
+      --highlight: #e94560;
+      --text: #ffffff;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--primary);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--highlight);
+    }
+    
+    .subtitle {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .news-card {
+      background-color: var(--secondary);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .news-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .news-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .news-content {
+      padding: 1.5rem;
+    }
+    
+    .news-date {
+      display: inline-block;
+      background-color: var(--accent);
+      color: white;
+      font-size: 0.8rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    
+    .news-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+    
+    .news-excerpt {
+      color: #ccc;
+      margin-bottom: 1.5rem;
+    }
+    
+    .read-more {
+      display: inline-block;
+      background-color: var(--highlight);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    
+    .read-more:hover {
+      background-color: #d03a50;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 2rem 0;
+      color: #888;
+      border-top: 1px solid #333;
+    }
+    
+    @media (max-width: 768px) {
+      .news-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Latest News</h1>
+      <p class="subtitle">Stay updated with the latest developments in software and technology</p>
+    </header>
+    
+    <main>
+      <div class="news-grid">
+        <!-- News Item 1 -->
+        <article class="news-card">
+          <img src="https://via.placeholder.com/600x400/16213e/e94560?text=Tech+News" alt="Tech News" class="news-image">
+          <div class="news-content">
+            <span class="news-date">March 5, 2025</span>
+            <h2 class="news-title">New Framework Released for Web Development</h2>
+            <p class="news-excerpt">A revolutionary new framework has been released that promises to simplify web development while improving performance...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- News Item 2 -->
+        <article class="news-card">
+          <img src="https://via.placeholder.com/600x400/16213e/e94560?text=AI+News" alt="AI News" class="news-image">
+          <div class="news-content">
+            <span class="news-date">March 3, 2025</span>
+            <h2 class="news-title">AI Breakthrough in Natural Language Processing</h2>
+            <p class="news-excerpt">Researchers have achieved a significant breakthrough in natural language processing, enabling more human-like interactions...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- News Item 3 -->
+        <article class="news-card">
+          <img src="https://via.placeholder.com/600x400/16213e/e94560?text=Cloud+News" alt="Cloud News" class="news-image">
+          <div class="news-content">
+            <span class="news-date">February 28, 2025</span>
+            <h2 class="news-title">Major Cloud Provider Announces New Services</h2>
+            <p class="news-excerpt">A leading cloud provider has announced a suite of new services aimed at improving security and reducing costs for businesses...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- News Item 4 -->
+        <article class="news-card">
+          <img src="https://via.placeholder.com/600x400/16213e/e94560?text=Security+News" alt="Security News" class="news-image">
+          <div class="news-content">
+            <span class="news-date">February 25, 2025</span>
+            <h2 class="news-title">Critical Security Vulnerability Patched</h2>
+            <p class="news-excerpt">A critical security vulnerability affecting millions of devices has been patched. Users are urged to update their systems immediately...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- News Item 5 -->
+        <article class="news-card">
+          <img src="https://via.placeholder.com/600x400/16213e/e94560?text=Mobile+News" alt="Mobile News" class="news-image">
+          <div class="news-content">
+            <span class="news-date">February 20, 2025</span>
+            <h2 class="news-title">Next Generation of Mobile Development Tools</h2>
+            <p class="news-excerpt">A new suite of development tools has been released, promising to streamline the creation of cross-platform mobile applications...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- News Item 6 -->
+        <article class="news-card">
+          <img src="https://via.placeholder.com/600x400/16213e/e94560?text=Data+News" alt="Data News" class="news-image">
+          <div class="news-content">
+            <span class="news-date">February 15, 2025</span>
+            <h2 class="news-title">Advancements in Big Data Processing</h2>
+            <p class="news-excerpt">New techniques for processing and analyzing massive datasets have been developed, offering unprecedented insights for businesses...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Tech News Portal. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

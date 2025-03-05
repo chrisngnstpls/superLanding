@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary min-h-screen;
+  }
+}
+
+@layer components {
+  .project-card {
+    @apply bg-secondary rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:shadow-highlight/20 hover:scale-[1.02] backdrop-blur-sm bg-opacity-80;
+  }
+  
+  .glass-effect {
+    @apply bg-secondary/70 backdrop-blur-md border border-white/10 rounded-xl;
+  }
+  
+  .neon-text {
+    @apply text-highlight font-bold;
+    text-shadow: 0 0 5px theme('colors.highlight'), 0 0 20px theme('colors.highlight');
+  }
+}
