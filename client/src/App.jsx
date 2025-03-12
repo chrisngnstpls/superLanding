@@ -4,35 +4,35 @@ import React, { useState } from 'react';
 const projects = [
   {
     id: 1,
-    title: 'Sample App 1',
-    description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB',
-    tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-    link: 'https://github.com/example/ecommerce',
-    image: 'https://via.placeholder.com/300x200/16213e/e94560?text=E-Commerce'
+    title: 'Starwatch 4K',
+    description: 'A full-stack DIY Starwatching app. Built with Python, Raspberry Pis and Love',
+    tags: ['Python, Flask, Raspberry Pi, 3d printing'],
+    link: 'https://lastrealplaceontheweb.com/starwatch4k/',
+    image: 'https://lastrealplaceontheweb.com/wp-content/uploads/2024/12/1474-1024x576.jpg'
   },
   {
     id: 2,
-    title: 'Sample App 2',
-    description: 'A Kanban-style task management application with drag-and-drop functionality',
-    tags: ['React', 'Redux', 'Firebase', 'Material UI'],
-    link: 'https://github.com/example/task-manager',
-    image: 'https://via.placeholder.com/300x200/16213e/e94560?text=Task+Manager'
+    title: 'The Bettor',
+    description: 'A peer-2-peer betting platform on Ethereum',
+    tags: ['React', 'Solidity', 'Javascript'],
+    link: 'https://github.com/chrisngnstpls/theBettor',
+    image: 'https://github.com/chrisngnstpls/theBettor/blob/master/client/public/logo512.png?raw=true'
   },
   {
     id: 3,
-    title: 'Sample App 3',
-    description: 'Real-time weather information with interactive maps and forecasts',
-    tags: ['JavaScript', 'OpenWeather API', 'Leaflet', 'Chart.js'],
+    title: 'zer0nft',
+    description: 'Real time Dapp monitoring minting endpoints on Tezos blockchain, allows instant minting of NFTs',
+    tags: ['dapp', 'web3', 'tezos', 'Javascript', 'React'],
     link: 'https://github.com/example/weather-app',
-    image: 'https://via.placeholder.com/300x200/16213e/e94560?text=Weather+App'
+    image: 'https://github.com/chrisngnstpls/zer0nft/blob/master/public/img/robber.png?raw=true'
   },
   {
     id: 4,
-    title: 'Sample App 4',
-    description: 'Dashboard for tracking and analyzing social media performance metrics',
-    tags: ['React', 'D3.js', 'Node.js', 'Social APIs'],
-    link: 'https://github.com/example/social-analytics',
-    image: 'https://via.placeholder.com/300x200/16213e/e94560?text=Analytics'
+    title: 'SuperTrader',
+    description: 'Weekend game project on PhaserJS',
+    tags: ['PhaserJS', 'Webpack', 'HTML', 'gaming'],
+    link: 'https://github.com/chrisngnstpls/supertrader',
+    image: 'https://github.com/chrisngnstpls/supertrader/blob/master/src/assets/images/titlescreen/wolf_1.png?raw=true'
   },
   {
     id: 5,
