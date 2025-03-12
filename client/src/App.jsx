@@ -40,7 +40,7 @@ const projects = [
     description: 'Mobile-first application for tracking workouts and nutrition',
     tags: ['React Native', 'GraphQL', 'MongoDB', 'Auth0'],
     link: 'https://github.com/example/fitness-app',
-    image: 'https://via.placeholder.com/300x200/16213e/e94560?text=Fitness+App'
+    image: 'https://github.com/chrisngnstpls/supertrader/blob/master/src/assets/images/titlescreen/wolf_1.png?raw=true'
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const projects = [
     description: 'A searchable repository of reusable code snippets with syntax highlighting',
     tags: ['Vue.js', 'Express', 'PostgreSQL', 'Prism.js'],
     link: 'https://github.com/example/code-snippets',
-    image: 'https://via.placeholder.com/300x200/16213e/e94560?text=Code+Snippets'
+    image: 'https://github.com/chrisngnstpls/supertrader/blob/master/src/assets/images/titlescreen/wolf_1.png?raw=true'
   }
 ];
 
