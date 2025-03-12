@@ -58,7 +58,7 @@ const ProjectCard = ({ project }) => {
     <div className="project-card group">
       <div className="overflow-hidden rounded-lg mb-4">
         <img
-          http-equiv="Content-Security-Policy",
+          http-equiv="Content-Security-Policy"
           content="default-src *;
           img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
           style-src  'self' 'unsafe-inline' *"  
