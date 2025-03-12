@@ -37,7 +37,7 @@ app.use(helmet({
       "connect-src": process.env.NODE_ENV === 'development' 
         ? ["'self'", "ws://localhost:*"] 
         : ["'self'"],
-      "img-src": ["'self'", "data:", "https://via.placeholder.com"],
+      "img-src": ["'self'", "data:", "https://picsum.photos/600/400"],
       "script-src": ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
       "style-src": ["'self'", "'unsafe-inline'"]
     }
