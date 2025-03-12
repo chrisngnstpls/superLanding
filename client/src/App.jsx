@@ -57,11 +57,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project-card group">
       <div className="overflow-hidden rounded-lg mb-4">
-        <img
-          http-equiv="Content-Security-Policy"
-          content="default-src *;
-          img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
-          style-src  'self' 'unsafe-inline' *"  
+        <img 
           src={project.image} 
           alt={project.title} 
           className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
